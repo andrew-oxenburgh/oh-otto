@@ -1,0 +1,26 @@
+$otto-text-color: green;
+$otto-icon-color: black;
+$otto-color: whitesmoke;
+$otto-text-color-hilite: white;
+$otto-color-hilite: #b2cecf ;
+$otto-log-color:white;
+
+$otto-background:tan;
+
+$otto-font: Lato, sans-serif;
+$otto-font-size: 16px;
+$otto-title-font: 'Playball', cursive;
+
+$otto-zoom-font-size: 12px;
+
+$otto-ease:cubic-bezier(1,0,1,.01);
+
+@import '../stylesheets/main';
+@import '../stylesheets/nav-iphone';
+@import '../stylesheets/oo-board-styles';
+@import '../stylesheets/oo-card';
+@import '../stylesheets/oo-yellow-card';
+@import '../stylesheets/oo-evernote';
+@import '../stylesheets/oo-no-embed';
+@import '../stylesheets/oo-zoom';
+@import '../stylesheets/oo-auths';

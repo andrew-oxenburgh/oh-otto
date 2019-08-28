@@ -1,0 +1,14 @@
+.welcome{
+  font-size:xx-large;
+  & .fa-sign-in{
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes example {
+  0% {font-size:200%;}
+  50% {font-size:250%;}
+  100% {font-size:200%;}
+}

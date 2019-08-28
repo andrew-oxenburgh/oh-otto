@@ -1,0 +1,16 @@
+table.oo-auths{
+  color:$otto-text-color;
+  border-collapse:collapse;
+  & th{
+    width:200px;
+    border:0px;
+  }
+  & td{
+    padding-left:10px;
+    border:0px;
+  }
+  & a{
+    border-style:solid;
+    border-color:$otto-color-hilite;
+  }
+}

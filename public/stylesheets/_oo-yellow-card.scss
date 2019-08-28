@@ -1,0 +1,87 @@
+@mixin card-shadow() {
+}
+
+@mixin note-paper($page, $line) {
+  background: $page;
+  background: -webkit-gradient(
+                  linear,
+                  left top, left bottom,
+                  from($line),
+                  color-stop(10%, $page)
+  );
+
+  background: -moz-repeating-linear-gradient(
+                  top,
+                  $page,
+                  $page 3.8em,
+                  $line 4em
+  );
+
+  background: repeating-linear-gradient(
+                  top,
+                  $page,
+                  $page 3.8em,
+                  $line 4em
+  );
+  -webkit-background-size: 100% 22px;
+  @include card-shadow()
+}
+
+.nav ul a .oo-note-yellowcard, .oo-note-yellowcard {
+  @include note-paper(#fcf59b, lightblue)
+}
+
+.nav ul a .oo-note-bluecard, .oo-note-bluecard {
+  @include note-paper(lightskyblue, lightblue)
+}
+
+.nav ul a .oo-note-greencard, .oo-note-greencard {
+  border-color: green;
+  @include note-paper(palegreen, lightblue)
+}
+
+.nav ul a .oo-note-plain, .oo-note-plain {
+  @include note-paper(white, lightcyan)
+}
+
+.nav ul a .oo-note-contentonly, .oo-note-contentonly {
+  background: transparent;
+  //border-style: none;
+  //transition: 0.5s ease;
+  &:hover {
+    background: whitesmoke;
+    //opacity: 0.05;
+    //transition: 0.5s ease;
+  }
+}
+
+.nav ul a .oo-note-trello, .oo-note-trello {
+  background: forestgreen;
+  color: white;
+  @include card-shadow();
+  & > :first-child {
+    color: forestgreen;
+  }
+}
+
+.nav ul a .oo-note-plain-white, .oo-note-plain-white {
+  background: white;
+  color: black;
+  @include card-shadow()
+}
+
+.nav ul a .oo-note-plain-red, .oo-note-plain-red {
+  background: crimson;
+  color: white;
+  font-weight: bolder;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  @include card-shadow()
+}
+
+.oo-photo-card {
+  width: 100px;
+  height: 10px;
+  background: transparent;
+}

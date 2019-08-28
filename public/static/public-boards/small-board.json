@@ -1,0 +1,24 @@
+{
+  "background": "concrete_seamless",
+  "cards": [{
+    "name": "card-1",
+    "content": "# 800 by 600 px",
+    "extent": {
+      "left": 50,
+      "top": 200,
+      "height": 200,
+      "width": 542
+    },
+    "style": {
+      "name": "greencard",
+      "css": ""
+    }
+  }],
+  "extent": {
+    "left": 0,
+    "top": 0,
+    "width": 800,
+    "height": 600
+  },
+  "zoomedBy": 1
+}

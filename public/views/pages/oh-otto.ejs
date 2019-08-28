@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script>
+        LOCAL_INIT_BOARD = <% include ../../static/public-boards/large-board.json %>
+    </script>
+    <% include ./header.ejs %>
+</head>
+<body contenteditable="true">
+
+<div id="universe" contenteditable="false">
+    <% include ./welcome.ejs %>
+    <div id="wall">
+        <div class="toolbar">
+            <div class="left">
+                <img class="otto-logo" src="/icons/Daschund_Without_Green.svg" tabindex="'-1">
+                <div id="watermark">
+                    ßeta
+                </div>
+            </div>
+            <div class="right">
+                <div class="auth">
+                    <img id="user-picture" onclick="showSignoutDlg();return false;" title="sign out"/>
+                    <i class="hvr-rotate cw-signin-or-out fa fa-fw fa-sign-in" onclick="toggleSignedState();return false;" title="sign in"></i>
+                </div>
+                <i class="hvr-rotate fa fa-fw fa-plus" title="create card" onclick="createCard();return false;"></i></a>
+                <div id="log"></div>
+                <i class="hvr-rotate fa fa-fw fa-search-minus oo-zoom-out" title="zoom out"></i></a>
+                <i class="hvr-rotate fa fa-fw fa-search-plus oo-zoom-in" title="zoom in"></i></a>
+                <i class="save fa fa-fw fa-refresh" title="auto save on"></i>
+            </div>
+        </div>
+        <div id="oo-body">
+            <div class='oo-grid'/>
+            </div>
+    </div>
+    <div id="dialog-wrapper">
+        <div id="cw-check-signout">
+            <h4>sign out?</h4>
+            <a href="#!" class="cw-button cw-close" onclick="$('#cw-check-signout, #dialog-wrapper').hide();return false;">No</a>
+            <a href="#!" class="cw-button cw-ok"
+               onclick="$('#cw-check-signout, #dialog-wrapper').hide();toggleSignedState();return false;">Yes</a>
+        </div>
+        <div id="after-signin">
+            <h4>welcome to oh-otto <span class="nick"></span></h4>
+        </div>
+        <div id="after-signout">
+            <h4>goodbye from oh-otto <span class="nick"></span></h4>
+        </div>
+    </div>
+
+    <div class="splashscreen">
+        Welcome to oh-otto
+    </div>
+    <noscript>
+        <div class="javascript-disabled">
+            javascript is disabled. you really, really need it for oh-otto
+        </div>
+    </noscript>
+</div>
+
+<div style="display:none">
+    <div id="cw-about">
+        <h4>about oh-otto</h4>
+
+        <div class="row">
+            <div class="col s6">developer</div>
+            <div class="col s6"><a target="_blank" href="mailto:andrew@oh-otto.nz">andrew@oh-otto.nz</a>
+            </div>
+
+            <div class="col s12">Thanks to:</div>
+            <div class="col s6">jquery</div>
+            <div class="col s6">jquery ui</div>
+            <div class="col s6">heroku</div>
+            <div class="col s6">auth0</div>
+            <div class="col s6">nodejs</div>
+            <div class="col s6">ejs</div>
+            <div class="col s6"></div>
+
+            <p id="hints"></p>
+
+        </div>
+    </div>
+
+    <div id="oo-settings">
+        <div class="oo-new-board">
+            <input type="text" id="oo-new-board-name">
+            <a href="#" class="cw-button cw-ok" onclick="createNewBoard();toggleModal('#oo-settings');return false;">create new board</a>
+        </div>
+    </div>
+
+    <div class="oo-duplicate-board">
+        <input type="text" id="oo-duplicated-board-name">
+        <a href="#" class="cw-button cw-ok" onclick="duplicateBoard();">duplicate board</a>
+    </div>
+
+    <div class="oo-wipe-board">
+        <h4>are you sure you want to wipe this board?</h4>
+        <a href="#" class="cw-button cw-ok" onclick="wipeBoard();">yes</a>
+        <a href="#" class="cw-button cw-ok" onclick="toggleModal('.oo-wipe-board')">no</a>
+    </div>
+
+    <!--<div id="click-nav-template">-->
+        <!--<ul class="nav">-->
+            <!--<li><a href='#' onclick='editCard(this);return false;' tabindex='-1' title="edit card"><i class='fa fa-fw fa-edit' tabindex='-1'></i></a></li>-->
+            <!--<li class="oo-settings">-->
+                <!--<a href="#" title="configure card"><i class='fa fa-fw fa-gear' tabindex='-1'></i></a>-->
+                <!--<ul>-->
+                    <!--<li><a href="#" class="oo-note-plain-white oo-note-plain-white-menu"><i class="fa fa-fw"></i>white</a></li>-->
+                    <!--<li><a href="#" class="oo-note-plain      oo-note-plain-menu"><i class="fa fa-fw"></i>white lined</a></li>-->
+                    <!--<li><a href="#" class="oo-note-yellowcard oo-note-yellowcard-menu"><i class="fa fa-fw"></i>yellow lined</a></li>-->
+                    <!--<li><a href="#" class="oo-note-bluecard   oo-note-bluecard-menu"><i class="fa fa-fw"></i>blue lined</a></li>-->
+                    <!--<li><a href="#" class="oo-note-greencard  oo-note-greencard-menu"><i class="fa fa-fw"></i>green lined</a></li>-->
+                    <!--<li><a href="#" class="oo-note-contentonly  oo-note-contentonly-menu"><i class="fa fa-fw"></i>transparent</a></li>-->
+                    <!--<li><a href="#" class="oo-note-trello  oo-note-trello-menu"><i class="fa fa-fw"></i>trello</a></li>-->
+                    <!--<li><a href="#" class="oo-note-plain-red  oo-note-plain-red-menu"><i class="fa fa-fw"></i>crimson</a></li>-->
+                <!--</ul>-->
+            <!--</li>-->
+            <!--<li><i class='fa fa-fw' tabindex='-1'></i></li>-->
+            <!--<li><a href='#' onclick='rm(this);return false;' tabindex='-1' title="remove card from board"><i class='fa fa-fw fa-trash' tabindex='-1'></i></a></li>-->
+        <!--</ul>-->
+    <!--</div>-->
+
+    <div id="oo-auth-config">
+        <table class="oo-auths">
+            <tr>
+                <th>service</th>
+                <th>name</th>
+                <th>user name</th>
+            </tr>
+
+            <tr>
+                <td><a href="/ev_oauth"><i class="fa fa-fw fa-reddit-alien"></i>evernote login</a></td>
+                <td class="evernote-username"></td>
+                <td class="evernote-fullname"></td>
+            </tr>
+            <tr>
+                <td><a href="#" onclick="trelloToggleAuth()"><i class="fa fa-fw fa-trello"></i><span class="trello-toggle">trello sign in</span></a></td>
+                <td class="trello-username"></td>
+                <td class="trello-fullname"></td>
+            </tr>
+        </table>
+        <a href="#" class="cw-button cw-ok" onclick="toggleModal('#oo-auth-config')">close</a>
+    </div>
+</div>
+<% include ./footer.ejs %>
+</body>
+</html>

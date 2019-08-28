@@ -1,0 +1,236 @@
+{
+  "background" : "concrete_seamless" ,
+  "cards"      : [
+    {
+      "name"    : "card-1846" ,
+      "content" : "in general" ,
+      "extent"  : {
+        "left"   : -0.96875 ,
+        "top"    : -0.96875 ,
+        "height" : 92 ,
+        "width"  : 151
+      } ,
+      "style"   : {
+        "name" : "plain-red" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-39471" ,
+      "content" : "delete a card using the trash icon" ,
+      "extent"  : {
+        "left"   : 272.890625 ,
+        "top"    : 243.78125 ,
+        "height" : 149 ,
+        "width"  : 309
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-86445" ,
+      "content" : "double click a card to edit it" ,
+      "extent"  : {
+        "left"   : -1 ,
+        "top"    : 499.875 ,
+        "height" : 145 ,
+        "width"  : 225
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-61629" ,
+      "content" : "create card by \n - double clicking on board\n -  _create card_ button in the menu\n - or pasting (not safari)\n - or dropping" ,
+      "extent"  : {
+        "left"   : 0 ,
+        "top"    : 93.875 ,
+        "height" : 172 ,
+        "width"  : 264
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-43813" ,
+      "content" : "boards" ,
+      "extent"  : {
+        "left"   : 585.703125 ,
+        "top"    : 0 ,
+        "height" : 92 ,
+        "width"  : 176
+      } ,
+      "style"   : {
+        "name" : "plain-red" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-65272" ,
+      "content" : "misc" ,
+      "extent"  : {
+        "left"   : 672.796875 ,
+        "top"    : 407.015625 ,
+        "height" : 92 ,
+        "width"  : 150
+      } ,
+      "style"   : {
+        "name" : "plain-red" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-94894" ,
+      "content" : "select a card to see _card options_" ,
+      "extent"  : {
+        "left"   : 273.78125 ,
+        "top"    : 94.890625 ,
+        "height" : 148 ,
+        "width"  : 310
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-8314" ,
+      "content" : "cards" ,
+      "extent"  : {
+        "left"   : 272.890625 ,
+        "top"    : 0 ,
+        "height" : 92 ,
+        "width"  : 151
+      } ,
+      "style"   : {
+        "name" : "plain-red" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-25415" ,
+      "content" : "markdown is available" ,
+      "extent"  : {
+        "left"   : -1 ,
+        "top"    : 265.875 ,
+        "height" : 105 ,
+        "width"  : 225
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-90430" ,
+      "content" : "drag and drop text from other pages" ,
+      "extent"  : {
+        "left"   : 671.875 ,
+        "top"    : 500.125 ,
+        "height" : 104 ,
+        "width"  : 266
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-838" ,
+      "content" : "links are clickable\n\nhttp://theonion.com" ,
+      "extent"  : {
+        "left"   : -1 ,
+        "top"    : 370.875 ,
+        "height" : 129 ,
+        "width"  : 225
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-46269" ,
+      "content" : "paste onto board, using menu or keyboard shortcuts" ,
+      "extent"  : {
+        "left"   : 670.984375 ,
+        "top"    : 604.203125 ,
+        "height" : 114 ,
+        "width"  : 331
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-94739" ,
+      "content" : "_card styling_\n\ndifferent colors and backgrounds" ,
+      "extent"  : {
+        "left"   : 276.796875 ,
+        "top"    : 394.703125 ,
+        "height" : 151 ,
+        "width"  : 305
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-76111" ,
+      "content" : "cards are draggable" ,
+      "extent"  : {
+        "left"   : 283.6875 ,
+        "top"    : 546.609375 ,
+        "height" : 155 ,
+        "width"  : 299
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-9761" ,
+      "content" : "boards auto-saved" ,
+      "extent"  : {
+        "left"   : 581.78125 ,
+        "top"    : 95.796875 ,
+        "height" : 158 ,
+        "width"  : 249
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-69549" ,
+      "content" : "todo list in trello\n\nlink to trello board in _board menu_" ,
+      "extent"  : {
+        "left"   : 582.703125 ,
+        "top"    : 238.59375 ,
+        "height" : 157 ,
+        "width"  : 332
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    }
+  ] ,
+  "extent"     : {
+    "left"   : 0 ,
+    "top"    : 0 ,
+    "height" : 799 ,
+    "width"  : 1000
+  } ,
+  "zoomedBy"   : 1
+}

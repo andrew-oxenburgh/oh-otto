@@ -1,0 +1,101 @@
+#wall {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  background: $otto-background;
+  width: 100%;
+  height: 100%;
+  &.show {
+    display:inherit;
+  }
+  &.hide {
+    display: none;
+  }
+}
+
+a.global-nav-toggle {
+  background: white;
+  color: black;
+  opacity: 0.7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  font-size: 2em;
+  border-radius: 1em;
+  &:hover {
+    background: transparent;
+    color: pink;
+    opacity: 1;
+  }
+  & .show {
+    width: 100%;
+  }
+  & .hide {
+    width: 0;
+  }
+}
+
+#global-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: $otto-color;
+  text-decoration: none;
+  z-index: 10;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 100%;
+  color: $otto-text-color;
+  & > a {
+    display: block;
+  }
+  & > a .submenu-body {
+    display: none;
+  }
+  &.show {
+    display:inherit;
+  }
+  &.hide {
+    display: none;
+  }
+}
+
+.submenu-header, .oo-change-board > span {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.submenu-body > a, .submenu-plain > a {
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.submenu-bold {
+  font-weight: bold;
+  text-decoration: underline;
+  padding-left: 1em;
+}
+
+.submenu-iconless {
+  padding-left: 2em;
+}
+
+i.fa-fw {
+  //width: 1.2em;
+}
+
+.otto-logo {
+  width: 32px;
+  height: 32px;
+}
+
+#oh-otto, a .header {
+  font-family: $otto-title-font;
+  position: relative;
+  left: 2.2em;
+}
+
+
+

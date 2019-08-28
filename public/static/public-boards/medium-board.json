@@ -1,0 +1,26 @@
+{
+  "background" : "concrete_seamless" ,
+  "cards"      : [
+    {
+      "name"    : "card-1" ,
+      "content" : "# 1024 by 768" ,
+      "extent"  : {
+        "left"   : 50 ,
+        "top"    : 200 ,
+        "height" : 168 ,
+        "width"  : 542
+      } ,
+      "style"   : {
+        "name" : "yellowcard" ,
+        "css"  : ""
+      }
+    }
+  ] ,
+  "extent"     : {
+    "left"   : 0 ,
+    "top"    : 0 ,
+    "height" : 768 ,
+    "width"  : 1024
+  } ,
+  "zoomedBy"   : 1
+}

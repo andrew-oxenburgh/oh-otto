@@ -1,0 +1,65 @@
+{
+  "_id"    : "google-oauth2|101301050979957971933" ,
+  "boards" : {
+    "default" : {
+      "cards" : [
+        {
+          "name"    : "card-39742" ,
+          "content" : "green\n" ,
+          "extent"  : {
+            "left"   : 1457 ,
+            "top"    : 241 ,
+            "height" : 300 ,
+            "width"  : 250
+          } ,
+          "style"   : {
+            "name" : "greencard" ,
+            "css"  : ""
+          }
+        } ,
+        {
+          "name"    : "card-17636" ,
+          "content" : "blue\n" ,
+          "extent"  : {
+            "left"   : 1207 ,
+            "top"    : 85 ,
+            "height" : 300 ,
+            "width"  : 250
+          } ,
+          "style"   : {
+            "name" : "bluecard" ,
+            "css"  : ""
+          }
+        } ,
+        {
+          "name"    : "card-84561" ,
+          "content" : "yellow\n" ,
+          "extent"  : {
+            "left"   : 957 ,
+            "top"    : 193 ,
+            "height" : 300 ,
+            "width"  : 250
+          } ,
+          "style"   : {
+            "name" : "yellowcard" ,
+            "css"  : ""
+          }
+        } ,
+        {
+          "name"    : "card-61629" ,
+          "content" : "andrew - google" ,
+          "extent"  : {
+            "left"   : 300 ,
+            "top"    : 329 ,
+            "height" : 300 ,
+            "width"  : 250
+          } ,
+          "style"   : {
+            "name" : "plain" ,
+            "css"  : ""
+          }
+        }
+      ]
+    }
+  }
+}

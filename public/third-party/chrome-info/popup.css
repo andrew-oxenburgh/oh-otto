@@ -1,0 +1,57 @@
+body {
+    background: whitesmoke;
+    align-content: center;
+    margin:0;
+    border:none;
+}
+
+.oo {
+    color: darkslategray;
+    display: list-item;
+    font-family: helvetica, sans-serif;
+    font-size: medium;
+    margin: 0.5em 1em;
+    width:20em;
+}
+
+.bm {
+}
+
+button {
+    background: white;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border:1px;
+}
+
+button:hover{
+    background:floralwhite;
+    border:1px;
+}
+
+.note{
+    height:8em;
+}
+
+.open-oh-otto *{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.img{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.message{
+    height: 3em;
+    background:green;
+    color:red;
+}
+
+.choose-endpoint{
+    display:inline;
+}

@@ -1,0 +1,36 @@
+.oo-note-evernote {
+  font-family: roboto, helvetica, arial, sans-serif;
+  background: white;
+  color: #383838;
+  font-weight: bolder;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  @include card-shadow();
+  & * h1 {
+    font-family: halant, times, serif;
+    color: #2dbe60;
+    text-decoration: none;
+  }
+}
+
+.oo-third-party-logo {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+.oo-note-wikipedia {
+  width: $cell-width;
+  height: $cell-height;
+  & * h1 {
+    font-family: "Linux Libertine", Georgia, Times, serif;
+    text-decoration: none;
+  }
+}
+
+.oo-embedded-img {
+  max-width: 200px;
+}

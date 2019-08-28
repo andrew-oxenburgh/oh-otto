@@ -1,0 +1,12 @@
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: en-GB,en;q=0.8,en-US;q=0.6,de;q=0.4
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Cache-Control: no-cache
+Connection: keep-alive
+Cookie: userToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL2NyeXB0aWMtd2F2ZS0xMzI3LmF1dGgwLmNvbS8iLCJzdWIiOiJnb29nbGUtb2F1dGgyfDEwMTMwMTA1MDk3OTk1Nzk3MTkzMyIsImF1ZCI6Im9mQzRCWGp2bkRaMUt5NUVVVGNyZW9kNzFDN1N2WjZIIiwiZXhwIjoxNDgwNjc0MjcyLCJpYXQiOjE0ODA2MzgyNzJ9.l7lDUlkcU6Ei8eKGgFD28tr1Z9uJ-lGfRFrM5z2NFRo; userProfile=%7B%22email%22%3A%22andrew.oxenburgh%40gmail.com%22%2C%22email_verified%22%3Atrue%2C%22name%22%3A%22Andrew%20Oxenburgh%22%2C%22given_name%22%3A%22Andrew%22%2C%22family_name%22%3A%22Oxenburgh%22%2C%22picture%22%3A%22https%3A%2F%2Flh5.googleusercontent.com%2F-_6zsk0X4icA%2FAAAAAAAAAAI%2FAAAAAAAAFNg%2F1et0B_FWKSo%2Fphoto.jpg%22%2C%22gender%22%3A%22male%22%2C%22locale%22%3A%22en-GB%22%2C%22clientID%22%3A%22ofC4BXjvnDZ1Ky5EUTcreod71C7SvZ6H%22%2C%22updated_at%22%3A%222016-12-02T00%3A24%3A32.908Z%22%2C%22user_id%22%3A%22google-oauth2%7C101301050979957971933%22%2C%22nickname%22%3A%22andrew.oxenburgh%22%2C%22identities%22%3A%5B%7B%22provider%22%3A%22google-oauth2%22%2C%22user_id%22%3A%22101301050979957971933%22%2C%22connection%22%3A%22google-oauth2%22%2C%22isSocial%22%3Atrue%7D%5D%2C%22created_at%22%3A%222015-09-02T23%3A20%3A57.341Z%22%2C%22global_client_id%22%3A%22FmTsYdIISUeY4kfNnkx4fLFiFwnmf6Sj%22%7D; Webstorm-427dacb4=bc09f7a9-3130-453e-ae89-75522fce2f1f
+DNT: 1
+GET / HTTP/1.1
+Host: localhost:5000
+Pragma: no-cache
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.98 Safari/537.36

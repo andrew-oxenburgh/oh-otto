@@ -1,0 +1,8 @@
+--reporter spec
+
+test/functional                               /
+test/functional/browser                       /
+test/functional/server                        /
+test/functional/server/util                   /
+test/functional/util                          /
+test/runtime

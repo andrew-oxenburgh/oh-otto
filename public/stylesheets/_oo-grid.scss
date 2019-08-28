@@ -1,0 +1,56 @@
+
+.oo-grid {
+  margin: $grid-margin;
+  width: fit-content;
+  height: fit-content;
+  background: $otto-background;
+}
+
+.oo-col {
+  margin: 0;
+  width: $cell-width;
+  background: $col-color;
+  display: table-cell;
+  padding-left: $cell-margin-beside;
+}
+
+.oo-cell {
+  background: $cell-color;
+  height: $cell-height;
+  width: $cell-width;
+  margin-top: $cell-margin-above;
+  margin-bottom: $cell-margin-above;
+  margin-left: 0;
+  border-style: none;
+  //border-width: 1px;
+  //border-color: red;
+}
+
+.oo-cell-occupiable {
+  border-style: none;
+  background: $cell-occupiable;
+  opacity: 0.5;
+  transition: background 0.5s;
+  &.oo-cell-hover {
+    background: $cell-hover;
+    opacity: 0.75;
+    transition-duration: 0.5s;
+  }
+}
+
+//.oo-card{
+//  background:coral;
+//  color:tan;
+//}
+//
+.oo-card-free {
+  //background:transparent;
+}
+
+.oo-card-occupier {
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

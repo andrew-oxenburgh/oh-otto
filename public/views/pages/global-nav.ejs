@@ -1,0 +1,81 @@
+ show and hide menu
+<a href="#" onclick="return toggleGlobalNav();" class="global-nav-toggle">
+    <div class="fa fa-fw fa-navicon"></div>
+</a>
+
+<div id="global-nav" class="hide">
+
+    <!-- insignia -->
+
+    <a id="oh-otto" href="#" onclick="return toggleModal('#cw-about');" tabindex="-1">
+        <img class="otto-logo" src="/ohOtto256px.png" tabindex="'-1">
+        <span>oh otto</span>
+    </a>
+
+    <hr>
+
+    <!--&lt;!&ndash;choose templates board&ndash;&gt;-->
+    <!--<div class="submenu-header oo-menu">-->
+        <!--<a href='#' tabindex='-1'>-->
+            <!--<i class='fa fa-fw fa-files-o ' tabindex='-1'></i>-->
+            <!--templates...-->
+        <!--</a>-->
+        <!--<div class="submenu-body submenu-background-menu">-->
+            <!--<li class="oo-static-boards"></li>-->
+        <!--</div>-->
+    <!--</div>-->
+
+
+    <!-- notes -->
+    <!--<a href="https://trello.com/b/2pNRvoFa/oh-otto" target="_blank">-->
+        <!--<i class="fa fa-fw fa-comments"></i>-->
+        <!--notes...-->
+    <!--</a>-->
+
+    <!-- bookmarks -->
+    <a href="javascript:var oo_service = '<%= process.env.OO_SERVICE %>';<% include ../../bookmarks/bookmark2.js%>" target="_blank">
+        <i class="fa fa-fw fa-bookmark-o"></i>
+        oh-otto me...
+    </a>
+
+    <!-- markdown cheat sheet -->
+    <!--<a href='https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet' target="_blank">-->
+        <!--<i class='fa fa-fw fa-question' tabindex='-1'></i>-->
+        <!--markdown cheatsheet...-->
+    <!--</a>-->
+
+
+    <!-- save board -->
+    <!--<a href="#" onclick="manualSave();return false;">-->
+        <!--<i class="fa fa-fw fa-save"></i>save board</a>-->
+
+
+    <!-- create card -->
+    <a href="#" onclick="createCard();return false;">
+        <i class="fa fa-fw fa-plus"></i>create card</a>
+
+
+    <!--&lt;!&ndash; view change log &ndash;&gt;-->
+    <!--<a href="change-log.html" target="_blank">-->
+        <!--<i class="fa fa-fw fa-book"></i>log</a>-->
+
+
+    <!-- sign on to oh-otto -->
+    <a href="#" onclick="toggleSignedState()">
+        <img id="user-picture" onclick="showSignoutDlg();return false;"/>
+        <i class="cw-signin-or-out fa fa-fw" onclick="toggleSignedState();return false;"></i>
+        auth
+    </a>
+
+
+    <!--<div class="cw-debug">-->
+        <!--<input type="checkbox" value="1" name="checkMeOut" id="save-on-unload" checked="checked"/>-->
+        <!--save on unload-->
+    <!--</div>-->
+
+    <!--<hr>-->
+    <!--% include ./oo-config.ejs %-->
+    <!--<hr>-->
+    <!--<div class="submenu-bold">debug</div>-->
+    <!--% include ./debug.ejs %-->
+</div>

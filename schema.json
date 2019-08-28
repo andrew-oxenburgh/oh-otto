@@ -1,0 +1,27 @@
+{
+  "_id"    : "oauth_id" ,
+  "boards" : {
+    "board_name" : {
+      "style" : {
+        "name" : "some name" ,
+        "css"  : "some css"
+      } ,
+      "cards" : [
+        {
+          "name"    : "card_name" ,
+          "content" : "" ,
+          "extent"  : {
+            "left"   : 11 ,
+            "top"    : 22 ,
+            "height" : 66 ,
+            "width"  : 77
+          } ,
+          "style"   : {
+            "name" : "some name" ,
+            "css"  : "some css"
+          }
+        }
+      ]
+    }
+  }
+}

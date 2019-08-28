@@ -1,0 +1,45 @@
+$otto-text-color: #333;
+$otto-icon-color: black;
+$otto-color: rgb(250, 250, 250);
+$otto-text-color-hilite: white;
+$otto-color-hilite: #b2cecf ;
+$otto-log-color:white;
+
+$oo-toolbar-background:lighten(red, 45);
+$oo-toolbar-font-size:small;
+$oo-toolbar-height:3em;
+
+$otto-font: 'Helvetica Neue', Helvetica, sans-serif;
+$otto-font-size: 16px;
+$otto-title-font: cursive;
+
+$otto-zoom-font-size: 12px;
+
+$otto-ease:cubic-bezier(1,0,1,.01);
+
+$cell-color : black;
+$body-color : red;
+$col-color : transparent;
+$cell-margin-above:1em;
+$cell-margin-beside:1em;
+$grid-margin: 4em 1em 1em 1em;
+$cell-width:19em;
+$cell-height:25em;
+
+$otto-background:white;
+$cell-color : transparent;
+$cell-occupiable: transparent;
+$cell-hover: darken($otto-background, 45);
+
+@import '../stylesheets/main';
+@import '../stylesheets/nav-desktop';
+@import '../stylesheets/oo-board-styles';
+@import '../stylesheets/oo-card';
+@import '../stylesheets/oo-yellow-card';
+@import '../stylesheets/oo-evernote';
+@import '../stylesheets/oo-no-embed';
+@import '../stylesheets/oo-zoom';
+@import '../stylesheets/oo-auths';
+@import '../stylesheets/oo-dialogs';
+@import '../stylesheets/oo-grid';
+@import '../stylesheets/oo-welcome';

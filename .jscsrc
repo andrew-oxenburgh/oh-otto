@@ -1,0 +1,13 @@
+{
+  "excludeFiles": [
+    "./public/custom-ui",
+    "node_modules",
+    "public/bower_components"
+  ],
+  "preset": "google",
+  "maximumLineLength": 200,
+  "requireCamelCaseOrUpperCaseIdentifiers": false,
+  "validateIndentation": 3,
+  "maxErrors": 2000,
+  "requireDotNotation":false
+}

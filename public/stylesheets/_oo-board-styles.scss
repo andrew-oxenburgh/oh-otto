@@ -1,0 +1,106 @@
+$oo-bg-color: $otto-color;
+
+@mixin menu() {
+  border-color: lightgrey;
+  color: black;
+  .nav * & {
+    border-style: solid;
+    border-width: 1px 3px 1px 3px;
+    border-color: $oo-bg-color;
+  }
+}
+
+#oo-body .oo-board-title {
+  font-size: 300%;
+  color: black;
+  text-align: center;
+  letter-spacing: 30px;
+  padding: 0;
+  margin: 0;
+  align-content: center;
+}
+
+@mixin dark_menu() {
+  border-color: lightgrey;
+  color: white;
+  .nav * & {
+    border-style: solid;
+    border-width: 1px 3px 1px 3px;
+    border-color: $oo-bg-color;
+  }
+}
+
+.background-geometry2 {
+  /*courtesy of subtlepatterns.com*/
+  background: url("/backgrounds/geometry2.png");
+  @include menu();
+}
+
+.background-concrete_seamless {
+  /*courtesy of subtlepatterns.com*/
+  background: url("/backgrounds/concrete_seamless.png");
+  @include menu();
+}
+
+.background-paisley {
+  /*courtesy of subtlepatterns.com*/
+  background: url("/backgrounds/paisley.png");
+  @include menu();
+}
+
+.background-blank {
+  background: transparent;
+}
+
+.background-paper_1 {
+  /*courtesy of subtlepatterns.com*/
+  background: url("/backgrounds/paper_1.png");
+  @include menu();
+}
+
+.background-restaurant_icons {
+  /*courtesy of subtlepatterns.com*/
+  background: url("/backgrounds/restaurant_icons.png");
+  @include menu();
+}
+
+.background-swirl_pattern {
+  /*courtesy of subtlepatterns.com*/
+  background: url("/backgrounds/swirl_pattern.png");
+  @include menu();
+}
+
+.background-upfeathers {
+  /*courtesy of subtlepatterns.com*/
+  background: url("/backgrounds/upfeathers.png");
+  @include menu();
+}
+
+.background-pink_rice {
+  /*courtesy of subtlepatterns.com*/
+  background: url("/backgrounds/pink_rice.png");
+  border-color: red;
+  @include menu();
+}
+
+.background-color-whitesmoke {
+  background: whitesmoke;
+  @include menu();
+}
+
+.background-color-blanchedalmond {
+  background: blanchedalmond;
+  @include menu();
+}
+
+.background-color-darkslategrey {
+  background: #333;
+  @include dark_menu();
+}
+
+
+
+
+
+
+

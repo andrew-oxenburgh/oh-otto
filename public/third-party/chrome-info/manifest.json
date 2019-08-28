@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Oh Otto",
+  "description": "Bookmark your pages in oh-otto",
+  "version": "1.5",
+  "homepage_url": "http://oh-otto.nz",
+  "browser_action": {
+    "default_icon": "Daschund_19px_Ver2.png",
+    "default_popup": "popup.html",
+    "default_title": "oh otto me"
+  },
+  "icons": {
+    "19": "Daschund_19px_Ver2.png",
+    "48": "Daschund_48px.png",
+    "128": "Daschund_128px.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "web_accessible_resources": [
+    "Daschund_19px_Ver2.png",
+    "Daschund_48px.png",
+    "Daschund_128px.png"
+  ]
+//,
+//  "applications": {
+//    "mozilla": {
+//      "id": "nz.oh-otto"
+//    }
+//  }
+}

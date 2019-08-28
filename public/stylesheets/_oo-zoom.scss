@@ -1,0 +1,71 @@
+
+#zoom {
+  display: inline;
+  position: fixed;
+  bottom: 20px;
+  left: 3px;
+}
+
+@mixin button() {
+  color: $otto-text-color;
+  font-family: $otto-font;
+  font-size: $otto-zoom-font-size;
+  cursor: pointer;
+}
+
+#in, #actual, #out, #up, #down, #left, #right, #fill-width, #fill-height, #fill-screen, #top-left, #top-right, #bottom-left, #bottom-right, #dummy {
+  @include button();
+  display: inline;
+}
+
+.ui-tooltip {
+  margin: 0;
+  padding: 5px;
+  display: inline;
+}
+
+#top-left i {
+  -ms-transform: rotate(-45deg); /* IE 9 */
+  -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+  transform: rotate(-45deg);
+}
+
+#top-right i {
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+
+#bottom-left i {
+  -ms-transform: rotate(-135deg); /* IE 9 */
+  -webkit-transform: rotate(-135deg); /* Chrome, Safari, Opera */
+  transform: rotate(-135deg);
+}
+
+#bottom-right i {
+  -ms-transform: rotate(135deg); /* IE 9 */
+  -webkit-transform: rotate(135deg); /* Chrome, Safari, Opera */
+  transform: rotate(135deg);
+}
+
+#zoom-resize, #zoom-move-lower, #zoom-move-middle, #zoom-move-top, #zoom-move, #zoom-zoom {
+  padding: 5px 0px 5px 0px
+}
+
+#zoom-resize, #zoom-move, #zoom-zoom {
+  border-style: solid;
+  //border-color: black;
+  border-color: darken($otto-color, 10%);
+  background: lighten($otto-color, 10%);
+  border-radius: 10px;
+  border-width: 2px;
+  margin-top: 5px;
+}
+
+.zoom-show {
+  opacity: 1;
+  color: $otto-icon-color;
+  background: transparent;
+  font-size: xx-large;
+}
+

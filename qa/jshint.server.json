@@ -1,0 +1,24 @@
+{
+  "esversion":6,
+  "-W079":true,
+  "bitwise": true,
+  "curly": true,
+  "expr": true,
+  "freeze": true,
+  "funcscope": true,
+  "futurehostile": true,
+  "browser": true,
+  "node": true,
+  "laxbreak":true,
+  "predef": [
+    "before",
+    "beforeEach",
+    "data",
+    "it",
+    "log",
+    "res",
+    "describe",
+    "xdescribe",
+    "xit"
+  ]
+}

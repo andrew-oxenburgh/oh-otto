@@ -1,0 +1,250 @@
+{
+  "background" : "concrete_seamless" ,
+  "cards"      : [
+    {
+      "name"    : "card-25415" ,
+      "content" : "markdown is available" ,
+      "extent"  : {
+        "left"   : 16.96875 ,
+        "top"    : 294 ,
+        "height" : 92 ,
+        "width"  : 303
+      } ,
+      "style"   : {
+        "name" : "yellowcard" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-46269" ,
+      "content" : "paste onto board, using menu or keyboard shortcuts" ,
+      "extent"  : {
+        "left"   : 643 ,
+        "top"    : 577.96875 ,
+        "height" : 132 ,
+        "width"  : 256
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-90430" ,
+      "content" : "\n\ndrag and drop text from other pages" ,
+      "extent"  : {
+        "left"   : 638.96875 ,
+        "top"    : 469.96875 ,
+        "height" : 108 ,
+        "width"  : 212
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-65272" ,
+      "content" : "misc" ,
+      "extent"  : {
+        "left"   : 638.96875 ,
+        "top"    : 375.96875 ,
+        "height" : 92 ,
+        "width"  : 150
+      } ,
+      "style"   : {
+        "name" : "plain-red" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-69549" ,
+      "content" : "link to trello board in _board menu_" ,
+      "extent"  : {
+        "left"   : 636.953125 ,
+        "top"    : 240.9375 ,
+        "height" : 113 ,
+        "width"  : 249
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-9761" ,
+      "content" : "save board in _save board_ option" ,
+      "extent"  : {
+        "left"   : 636.953125 ,
+        "top"    : 148.9375 ,
+        "height" : 92 ,
+        "width"  : 225
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-43813" ,
+      "content" : "boards" ,
+      "extent"  : {
+        "left"   : 636.953125 ,
+        "top"    : 54.9375 ,
+        "height" : 92 ,
+        "width"  : 150
+      } ,
+      "style"   : {
+        "name" : "plain-red" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-8314" ,
+      "content" : "cards" ,
+      "extent"  : {
+        "left"   : 368 ,
+        "top"    : 57.9375 ,
+        "height" : 92 ,
+        "width"  : 150
+      } ,
+      "style"   : {
+        "name" : "plain-red" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-94894" ,
+      "content" : "select a card to see _card options_" ,
+      "extent"  : {
+        "left"   : 368 ,
+        "top"    : 151.9375 ,
+        "height" : 92 ,
+        "width"  : 237
+      } ,
+      "style"   : {
+        "name" : "bluecard" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-61629" ,
+      "content" : "create card by \n - double clicking or \n - using the _create card_ button in the menu" ,
+      "extent"  : {
+        "left"   : 16.96875 ,
+        "top"    : 157 ,
+        "height" : 137 ,
+        "width"  : 269
+      } ,
+      "style"   : {
+        "name" : "yellowcard" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-1846" ,
+      "content" : "in general" ,
+      "extent"  : {
+        "left"   : 16.96875 ,
+        "top"    : 63 ,
+        "height" : 92 ,
+        "width"  : 150
+      } ,
+      "style"   : {
+        "name" : "plain-red" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-838" ,
+      "content" : "links are clickable\n\nhttp://theonion.com" ,
+      "extent"  : {
+        "left"   : 16.96875 ,
+        "top"    : 386 ,
+        "height" : 134 ,
+        "width"  : 304
+      } ,
+      "style"   : {
+        "name" : "yellowcard" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-86445" ,
+      "content" : "double click a card to edit it" ,
+      "extent"  : {
+        "left"   : 16.96875 ,
+        "top"    : 520 ,
+        "height" : 147 ,
+        "width"  : 305
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-76111" ,
+      "content" : "cards are draggable" ,
+      "extent"  : {
+        "left"   : 368 ,
+        "top"    : 560.9375 ,
+        "height" : 105 ,
+        "width"  : 247
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-91621" ,
+      "content" : "see card def in _debug card option_" ,
+      "extent"  : {
+        "left"   : 368 ,
+        "top"    : 445.9375 ,
+        "height" : 115 ,
+        "width"  : 247
+      } ,
+      "style"   : {
+        "name" : "plain-white" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-94739" ,
+      "content" : "_card styling_" ,
+      "extent"  : {
+        "left"   : 375 ,
+        "top"    : 353.9375 ,
+        "height" : 92 ,
+        "width"  : 240
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    } ,
+    {
+      "name"    : "card-39471" ,
+      "content" : "delete a card using the trash icon" ,
+      "extent"  : {
+        "left"   : 375 ,
+        "top"    : 243.9375 ,
+        "height" : 110 ,
+        "width"  : 240
+      } ,
+      "style"   : {
+        "name" : "plain" ,
+        "css"  : ""
+      }
+    }
+  ] ,
+  "extent"     : {
+    "left"   : 0 ,
+    "top"    : 0 ,
+    "height" : 800 ,
+    "width"  : 1000
+  } ,
+  "zoomedBy"   : 1
+}

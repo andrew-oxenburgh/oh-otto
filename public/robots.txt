@@ -1,0 +1,10 @@
+
+User-agent: *
+
+Allow:
+Disallow: /a/                #utilities
+Disallow: /board/
+Disallow: /boards/
+Disallow: /providers
+Disallow: /static-board/
+Disallow: /static-boards/

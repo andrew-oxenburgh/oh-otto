@@ -1,0 +1,32 @@
+Hi Fajarmandela,
+
+I used you a couple of times for oh-otto, and thanks for that. They were perfect.
+
+This time, I need a similar icon, based on glasses.
+
+I'm writing an app for maintaining a lot of links and info from around the web, and was looking for a librarian style. This is an assistant that helps you, and the glasses indicate that looking and questing on you behalf.
+
+It will primarily be used for a web app.
+
+I've enclosed an image I would like copied, but it's up to you.
+
+I don't want it in the flat icon style.
+
+I need at least the following:
+ - 16X16,
+ - 32X32,
+ - 64X64,
+
+as well as the svg file.
+
+There should be a very limited number of colors, all around Cadet Blue. Please use shades and tints from here(http://www.color-hex.com/color/5f9ea0).
+
+There is writing on the left arm.
+ - It needn't be there on smaller images, though I leave that up to you. Maybe just a line, or some shading.
+ - It should be illegible, and unrecognizable as any specific script at all.
+
+
+Regards
+
+
+Andrew Oxenburgh

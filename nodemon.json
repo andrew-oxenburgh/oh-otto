@@ -1,0 +1,32 @@
+{
+  "verbose": true,
+  "env": {
+    "AUTH0_CLIENT_ID": "XXXXXXXXXXXXXXXXXXXXXXXX",
+    "TIMES": 3,
+    "AUTH0_CLIENT_SECRET": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "AUTH0_DOMAIN": "cryptic-wave-1327.auth0.com",
+    "AUTH0_CALLBACK_URL": "http://localhost:5000/callback",
+    "OO_SERVICE": "http://localhost:5000",
+    "ENVIRONMENT": "dev",
+    "MONGOLAB_URI": "mongodb://localhost:27017/oh-otto-users",
+    "EV_KEY": "andrewoxenburgh-9493",
+    "EV_SECRET": "1784ed15b1c92cfc",
+    "EV_CALLBACK_URL": "http://localhost:5000/ev_oauth_callback",
+    "EV_SANDBOX": "true",
+    "debug_link_available": "true",
+    "TR_KEY": "1174afd482ac0c5603f0df69916bbeb0",
+    "TR_SECRET": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "OO_USER_MESSAGE_LEVEL": "1",
+    "OO_USER_MESSAGE_DISPLAY_TIME": "12002",
+    "OO_USER_MESSAGE_BUCKET_TIME": "3002"
+  },
+  "restartable": "rs",
+  "execMap": {
+    "rb": "ruby",
+    "pde": "processing --sketch={{pwd}} --run"
+  },
+  "watch": ["./node_modules", "src/**/*.*"],
+  "events": {
+    "_restart": "osascript -e 'display notification \"oh-otto restarted\"' with title \"nodemon\""
+  }
+}

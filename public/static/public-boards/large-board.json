@@ -1,0 +1,26 @@
+{
+  "background" : "color-whitesmoke" ,
+  "cards"      : [
+    {
+      "name"    : "card-1" ,
+      "content" : "# New Card\n - add your notes, using sexy markdown\n - paste into page directly\n - paste urls for a pleasant surprise" ,
+      "extent"  : {
+        "left"   : 50 ,
+        "top"    : 200 ,
+        "height" : 168 ,
+        "width"  : 542
+      } ,
+      "style"   : {
+        "name" : "greencard" ,
+        "css"  : ""
+      }
+    }
+  ] ,
+  "extent"     : {
+    "left"   : 0 ,
+    "top"    : 0 ,
+    "height" : 1000,
+    "width"  : 3000
+  } ,
+  "zoomedBy"   : 1
+}

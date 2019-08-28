@@ -1,0 +1,20 @@
+{
+  "name": "js-diff",
+  "version": "0.0.3",
+  "description": "A recursive JavaScript object comparison script",
+  "main": "src/diff.js",
+  "dependencies": {},
+  "devDependencies": {
+    "lodash": "^4.3.0",
+    "should": "^8.2.2"
+  },
+  "scripts": {
+    "test": "mocha --reporter min"
+  },
+  "author": "Gary Chisholm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omgaz/js-diff/issues"
+  },
+  "homepage": "https://github.com/omgaz/js-diff"
+}

@@ -1,0 +1,37 @@
+<script src="/bower_components/jquery/dist/jquery.js"></script>
+<!--<script async='async' src="https://api.trello.com/1/client.js?key=1174afd482ac0c5603f0df69916bbeb0"></script>-->
+
+<script>
+    document.querySelectorAll('.splashscreen')[0].style.display = 'block';
+    oo = {};
+    oo.auth0_clientId = '<%= process.env.AUTH0_CLIENT_ID %>';
+    oo.auth0_domain = '<%= process.env.AUTH0_DOMAIN %>';
+    oo.boardName = '<%= boardId %>';
+    oo.bookmark = '';
+    oo.userMessageLevel = <%= process.env.OO_USER_MESSAGE_LEVEL %>;
+    oo.userMessageDisplayTime = <%= process.env.OO_USER_MESSAGE_DISPLAY_TIME || 12000 %>;
+    oo.userMessageBucketTime = <%= process.env.OO_USER_MESSAGE_BUCKET_TIME || 3000 %>;
+    oo.HINTS = "<% include ../partials/hints.ejs %>";
+    //    navigator.registerProtocolHandler(
+    //            'web+oh-otto', 'http://localhost:5000/haml?%s', 'my haml handler');
+</script>
+
+<script src="/build/third-party.min.js"></script>
+
+<script src="/js/ob-testable.js"></script>
+<script src="/js/ob-grid.js"></script>
+<script src="/js/ob-oo.js"></script>
+<script src="/js/ob-init.js"></script>
+<script src="/js/ob-global-nav.js"></script>
+<script src="/js/ob-write.js"></script>
+<script src="/js/ob-auth.js"></script>
+<script src="/js/ob-ui.js"></script>
+<script src="/js/ob-articulate.js"></script>
+<script src="/js/ob-edit.js"></script>
+<script src="/js/ob-favicon.js"></script>
+<script src="/js/ob-read.js"></script>
+<script src="/js/ob-create.js"></script>
+<script src="/js/ob-trello-auth.js"></script>
+
+<!--<script src="/build/oh-otto.min.js"></script>-->
+
